@@ -1,0 +1,19 @@
+
+name: Markdown Linter
+
+on:
+  pull_request:
+
+jobs:
+  markdownlint:
+    name: Lint Markdown Files
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+
+      - name: Lint Markdown files
+        uses: DavidAnson/markdownlint-cli2-action@v24
+        with:
+          globs: '**/*.md'
