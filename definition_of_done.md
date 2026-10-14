@@ -82,4 +82,4 @@ Before marking an issue or Increment as **Done**, confirm that:
 - [ ] Previous functionality and workflows still work correctly.
 - [ ] Results are stored in the agreed location and format.
 
-If any of these requirements are not satisfied, the work should not yet be considered **Done**.
+If any of these requirements are not satisfied, the work should not yet be considered Done.
