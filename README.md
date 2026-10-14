@@ -6,8 +6,7 @@
 | Tony Stark          | tony.stark.@avengers.com    |
 | Bruce Banner        | bruce.banner@avengers.ca      |
 
-
-### Credit Card Fraud Detection
+## Credit Card Fraud Detection
 
 Credit card fraud can have a significant impact on banks. Beyond immediate financial losses, which can result from unauthorized transactions and the reimbursement of defrauded customers, banks face reputational damage as well. Instances of fraud erode customer trust and confidence in the security of financial services. Moreover, the costs associated with investigating and resolving fraudulent activities, implementing enhanced security measures, and potential legal actions add further strain to a bank's resources.
 
