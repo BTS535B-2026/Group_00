@@ -66,7 +66,7 @@ An Increment is considered **Done** only when all of the following criteria have
 
 ---
 
-## Completion Checklist
+##Completion Checklist
 
 Before marking an issue or Increment as **Done**, confirm that:
 
