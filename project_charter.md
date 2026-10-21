@@ -43,7 +43,7 @@ project dates, and the total cost estimate have not yet been established.
 ### 1.3 Authorization
 
 The following record identifies the proposed team and the outstanding approval
-required before this charter can be treated as formally authorized. 
+required before this charter can be treated as formally authorized.
 
 | Role | Name | Authorization or acknowledgment | Date |
 | --- | --- | --- | --- |
@@ -51,7 +51,6 @@ required before this charter can be treated as formally authorized.
 | Principal Investigator | Marcel Jar | Approved | 2026-10-21 |
 | Data Scientist | Tony Stark | Acknowledgment pending | TBD |
 | Financial Specialist | Bruce Banner | Acknowledgment pending | TBD |
-
 
 ## Section 2. Project Overview
 
