@@ -47,7 +47,7 @@ required before this charter can be treated as formally authorized.
 
 | Role | Name | Authorization or acknowledgment | Date |
 | --- | --- | --- | --- |
-| Project sponsor | Marcel Jr | Approved | 2026-10-21 |
+| Project sponsor | Marcel Jar | Approved | 2026-10-21 |
 | Principal Investigator | Marcel Jar | Approved | 2026-10-21 |
 | Data Scientist | Tony Stark | Acknowledgment pending | TBD |
 | Financial Specialist | Bruce Banner | Acknowledgment pending | TBD |
@@ -93,31 +93,33 @@ The proposed team consists of Marcel Jar (Principal Investigator), Tony Stark
 These are preliminary milestones in the expected sequence of work. Target dates
 and formal approval gates will be confirmed during project planning.
 
-| Milestone | Completion event | Target date |
-| --- | --- | --- |
-| M1 - Charter authorization | Project charter reviewed and formally approved | TBD |
-| M2 - Dataset acquisition | Suitable historical data obtained with documented permission to use it | TBD |
-| M3 - Data preparation | Cleaned and processed dataset ready for model training | TBD |
-| M4 - Supervised model evaluation | Baseline models trained and evaluated on held-out data | TBD |
-| M5 - Model selection | Tuning and anomaly detection assessment completed; preferred model selected | TBD |
-| M6 - Real-time integration | Incoming transactions can be scored by the selected model | TBD |
-| M7 - System validation | End-to-end tests and final results reviewed against agreed criteria | TBD |
-
+| Milestone | Completion Event | Target Date |
+|---|---|---|
+| M1 - Project Authorization | Project sponsor formally authorizes the project to begin. | TBD |
+| M2 - Data Access Approval | Permission to use the required credit card transaction data is granted. | TBD |
+| M3 - Data Readiness Checkpoint | Project manager confirms that the data is ready for model development. | TBD |
+| M4 - Model Selection Decision | Project team agrees on which machine learning model to use. | TBD |
+| M5 - Testing Authorization | Project manager approves moving the system into the testing phase. | TBD |
+| M6 - System Acceptance | Project sponsor confirms that the system meets the agreed requirements. | TBD |
+| M7 - Project Closure | Project sponsor formally declares the project completed. | TBD |
 ### 2.5 Deliverables
 
 The following proposed deliverables include both technical outputs and key
 project management artifacts. Acceptance criteria are provisional and will need
 to be approved during detailed planning.
 
-| Deliverable | Description | Preliminary acceptance criteria |
-| --- | --- | --- |
-| D1 - Approved charter and project plan | Authorized charter and initial schedule of work | Charter signed by the appropriate authority; project plan reviewed |
-| D2 - Transaction dataset and data description | Historical legitimate and fraudulent transaction examples, with documented features and data provenance | Data source and permitted use documented; dataset suitable for analysis |
-| D3 - Data preparation pipeline | Repeatable handling of missing data, feature normalization, and class imbalance, using Spark for large-scale processing | Pipeline can be rerun and produces training-ready data |
-| D4 - Trained supervised models | Logistic regression and decision tree fraud detection models | Model training is reproducible and results can be generated on held-out data |
-| D5 - Model assessment and selection report | Comparison of predictive performance, tuning results, and relevant anomaly detection experiments | Metrics, false-alarm trade-offs, limitations, and model selection rationale documented |
-| D6 - Real-time fraud scoring system | Integration that evaluates incoming transaction data with the chosen model | End-to-end tests demonstrate that transaction inputs generate fraud-risk outputs |
-| D7 - Testing and technical documentation | Evaluation results, integration instructions, and known operational limitations | Documentation and test results reviewed against agreed acceptance criteria |
+| Deliverable | Description |
+|---|---|
+| D1 - Project Charter | Document describing the project's objectives, scope, and stakeholders. |
+| D2 - Historical Transaction Dataset | Collection of historical credit card transactions for model development. |
+| D3 - Data Preprocessing Scripts | Python and Apache Spark scripts for cleaning and preparing transaction data. |
+| D4 - Processed Dataset | Cleaned and organized transaction data ready for machine learning. |
+| D5 - Model Training Scripts | Python scripts used to train the machine learning models. |
+| D6 - Model Evaluation Report | Document comparing the accuracy and performance of different models. |
+| D7 - Fraud Detection Model | Trained machine learning model capable of identifying potentially fraudulent transactions. |
+| D8 - Fraud Detection Prototype | Working software that receives transactions and flags potential fraud. |
+| D9 - System Testing Report | Document containing the results of the system's final tests. |
+| D10 - User Documentation | Instructions explaining how to install and use the fraud detection system. |
 
 ### 2.6 Project Cost Estimate
 
