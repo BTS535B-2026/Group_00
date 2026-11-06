@@ -102,6 +102,7 @@ and formal approval gates will be confirmed during project planning.
 | M5 - Testing Authorization | Project manager approves moving the system into the testing phase. | TBD |
 | M6 - System Acceptance | Project sponsor confirms that the system meets the agreed requirements. | TBD |
 | M7 - Project Closure | Project sponsor formally declares the project completed. | TBD |
+
 ### 2.5 Deliverables
 
 The following proposed deliverables include both technical outputs and key
