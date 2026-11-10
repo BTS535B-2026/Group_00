@@ -52,6 +52,10 @@ required before this charter can be treated as formally authorized.
 | Data Scientist | Tony Stark | Acknowledgment pending | TBD |
 | Financial Specialist | Bruce Banner | Acknowledgment pending | TBD |
 
+### 1.4 SWOT Analysis
+
+![Swot analysis](./images/swot.png)
+
 ## Section 2. Project Overview
 
 The project will proceed from historical transaction data collection and
