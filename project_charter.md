@@ -92,6 +92,22 @@ The proposed team consists of Marcel Jar (Principal Investigator), Tony Stark
 
 ### 2.3 Project Scope
 
+#### 2.3.1 Work Breakdown Structure
+
+![WBS](./images/WBS.png)
+
+#### 2.3.2 Requirements Traceability Matrix
+
+| ID | Requirement | Source | Priority | Deliverable | Test Case | Status |
+|---|---|---|---|---|---|---|
+| R01 | Identify suspicious credit card transactions | Fraud Department | High | Fraud Detection Module | TC01 | Implemented |
+| R02 | Notify analysts within 2 seconds of detection | Fraud Analysts | High | Alert Notification Service | TC02 | In Progress |
+| R03 | Allow analysts to review flagged transactions | Fraud Analysts | High | Investigation Dashboard | TC03 | Implemented |
+| R04 | Generate monthly fraud statistics | Bank Management | Medium | Reporting Module | TC04 | Pending |
+| R05 | Restrict access to authorized personnel | Security Department | High | Access Control Module | TC05 | Verified |
+| R06 | Store transaction records for future fraud investigations | Fraud Department | High | Transaction Database | TC06 | In Progress |
+| R07 | Allow analysts to mark flagged transactions as fraudulent or legitimate | Fraud Analysts | Medium | Transaction Classification Module | TC07 | Pending |
+
 ### 2.4 Milestones
 
 These are preliminary milestones in the expected sequence of work. Target dates
