@@ -150,7 +150,8 @@ To estimate the overall project cost, we will first calculate the cost per sprin
 
 #### 2.6.1 Cost Per Sprint
 
-**Personnel**
+Personnel
+
 | Role | Annual Salary | Daily Rate | Allocation | Daily Burn Rate | Days (Sprint) | Sprint Burn Rate |
 |---|---:|---:|---:|---:|---:|---:|
 | Principal Investigator  | $150,000.00| $410.96 | 50%  | $205.48 | 14 | $2,876.71 |
@@ -158,8 +159,8 @@ To estimate the overall project cost, we will first calculate the cost per sprin
 | Financial Specialist    | $110,000.00| $273.97 | 100% | $273.97| 14 | $3,835.62 |
 | **Total** | | | |  | | **$11,315.07** |
 
+Fixed Costs
 
-**Fixed Costs**
 | Item | Quantity | Price | Unit Cost per Sprint| Total Cost per Sprint |
 |---|---:|---:|---:|---:|
 | Office Rental | 1 | $2,400/month | $1,200.00 | $1,200.00 |
