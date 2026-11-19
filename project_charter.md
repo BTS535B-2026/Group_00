@@ -146,6 +146,50 @@ to be approved during detailed planning.
 
 ### 2.6 Project Cost Estimate
 
+To estimate the overall project cost, we will first calculate the cost per sprint, accounting for both personnel expenses and fixed operating costs. Each sprint is assumed to have a duration of two weeks. Based on the total estimated project cost, we will then apply a **15% contingency reserve** to establish the **cost baseline**. Finally, a **20% management reserve**, calculated as a percentage of the cost baseline, will be added to determine the **total project budget**.
+
+#### 2.6.1 Cost Per Sprint
+
+**Personnel**
+| Role | Annual Salary | Daily Rate | Allocation | Daily Burn Rate | Days (Sprint) | Sprint Burn Rate |
+|---|---:|---:|---:|---:|---:|---:|
+| Principal Investigator  | $150,000.00| $410.96 | 50%  | $205.48 | 14 | $2,876.71 |
+| Data Scientist          | $120,000.00| $328.77 | 100% | $328.77| 14 | $4,602.74 |
+| Financial Specialist    | $110,000.00| $273.97 | 100% | $273.97| 14 | $3,835.62 |
+| **Total** | | | |  | | **$11,315.07** |
+
+
+**Fixed Costs**
+| Item | Quantity | Price | Unit Cost per Sprint| Total Cost per Sprint |
+|---|---:|---:|---:|---:|
+| Office Rental | 1 | $2,400/month | $1,200.00 | $1,200.00 |
+| Electricity | 1 | $240/month | $120.00 | $120.00 |
+| Internet Service | 1 | $120/month | $60.00 | $60.00 |
+| Claude Pro Subscription | 3 | $30/month | $15.00 | $45.00 |
+| Cloud GPU Computing | 2 | $800/month | $400.00 | $800.00 |
+| Cloud Data Storage | 1 | $100/month | $50.00 | $50.00 |
+| ML Development Software License | 2 | $480/year | $20.00 | $40.00 |
+| Project Management Software | 3 | $20/month | $10.00 | $30.00 |
+| Database Hosting | 1 | $160/month | $80.00 | $80.00 |
+| Backup and Security Services | 1 | $80/month | $40.00 | $40.00 |
+| **Total** | | | | **$2,465.00** |
+
+---
+
+#### 2.6.2 Overall Cost
+
+| Item | Cost| Num Sprints | Total Cost |
+|---|---:|---:|---:|
+| Personnel Cost (per Sprint) | $11,315.07 | 6| $67,890.41 |
+| Fixed Cost (per Sprint) | $2,465.00 | 6 | $14,790.00 |
+| **Total** |  |  |  **$82,680.41** |
+| Contigency Reserves (15%)| |  | $12,402.06 |
+| **Cost Baseline** |  |  |  **$95,082.47** |
+| Management Reserves (20%)| |  | $$19,016.49 |
+| **Total Project Budget** |  |  |  **$114,098.97** |
+
+---
+
 ### 2.7 Dependencies
 
 The Gantt chart below illustrates the estimated durations and dependencies of the project's activities and work packages. Following a rolling wave planning approach, near-term work is planned in greater detail, while work scheduled for later stages remains at a higher level, with preliminary duration estimates that will be refined as the project progresses.
