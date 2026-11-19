@@ -11,6 +11,8 @@ and the deliverables expected from the project team.
 | Version | Date | Change description | Status |
 | --- | --- | --- | --- |
 | 0.1 | 2026-10-21 | Initial incomplete project charter draft | Draft |
+| 0.2 | 2026-11-22 | Added a WBS and an RTM | Draft |
+| 0.3 | 2026-11-19 | Added a Gantt Chart and Preliminary Budget | Draft |
 
 Subsequent revisions should be recorded in this table to maintain a history of
 changes to the charter.
@@ -145,6 +147,10 @@ to be approved during detailed planning.
 ### 2.6 Project Cost Estimate
 
 ### 2.7 Dependencies
+
+The Gantt chart below illustrates the estimated durations and dependencies of the project's activities and work packages. Following a rolling wave planning approach, near-term work is planned in greater detail, while work scheduled for later stages remains at a higher level, with preliminary duration estimates that will be refined as the project progresses.
+
+![GANTT CHART](./images/gantt_chart.png)
 
 ### 2.8 Project Risks, Assumptions, and Constraints
 
