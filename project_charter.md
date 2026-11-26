@@ -207,11 +207,35 @@ The Gantt chart below illustrates the estimated durations and dependencies of th
 
 ## Section 3. Project Organization
 
-### 3.1 Project Governance
+### 3.1 Stakeholder Register
 
-### 3.2 Project Team Structure
+| Name         | Position     | Int/Ext | Role in the project  |
+|--------------|-----------------|------------------|----------------------|
+| Marcel Jar      | Faculty  | Internal         | Project sponsor |
+| Tony Stark        | CEO  | Internal         | Executive sponsor and funding authority |
+| Bruce Banner     | Data Scientist    | Internal         | Model development and evaluation    |
+| Natasha Romanoff | Fraud Operations Manager | Internal | Defines fraud patterns and validates alerts |
+| Peter Parker | ML Engineer | Internal | Deploys and monitors real-time model scoring |
+| Nick Fury | Information Security Lead | Internal | Protects transaction data and reviews security controls |
+| Jennifer Walters | Compliance and Privacy Officer | Internal | Ensures regulatory, privacy, and audit compliance |
+| Credit Cardholders | Customers | External | Provide transaction data and are affected by fraud decisions |
+| Fraud Investigators | Model Users | Internal | Review alerts and provide feedback on model results |
+| Financial Regulator | Regulatory Authority | External | Defines reporting, fairness, and data-handling requirements |
+  
+### 3.2 Stakeholder Analysis Matrix
 
-### 3.3 Roles and Responsibilities
+![Stakeholder Analysis Matrix](./images/stakeholder-analysis-matrix.png)
+
+### 3.3 Stakeholder Communications Analysis
+
+| Information | Owner | Audience | Schedule | Channel |
+|----------|:-------------|:------| :-------| :-------|
+| Project Status | Project Sponsor | CEO, Fraud Operations Manager, ML Engineer, Data Scientists, Fraud Investigators, Compliance Officer | Biweekly | In Person |
+| Sprint Review | Data Scientists | ML Engineer, Fraud Investigators, Fraud Operations Manager  | Biweekly | In Person |
+| Modelling Results | ML Engineer | CEO, Fraud Operations Manager, Data Scientists  | Monthly | MS Teams |
+| Financial Report | CEO | Project Sponsor, Financial Regulator, Bank Executives | Monthly | Phone |
+| Compliance Reports | Compliance Officer| Financial Regulator, Fraud Investigators, Information Security Lead | Quarterly | Email |
+| Advertisement | Project Sponsor| Credit Cardholders | End of Project | Email |
 
 ### 3.4 Project Facilities and Resources
 
